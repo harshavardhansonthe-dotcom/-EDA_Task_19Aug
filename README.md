@@ -21,7 +21,12 @@ with mean/forward fill. Cleaned data is saved as
 – Fix Data Types & Remove Duplicates - Converted date columns to datetime format using 
 `pd.to_datetime()` 
 - Ensured numeric columns are in correct type using 
-`pd.to_numeric()` - Removed duplicate records using `drop_duplicates()` - Saved updat
+`pd.to_numeric()` - Removed duplicate records using `drop_duplicates()` - Saved update
+
+## Day 5
+– Data Normalization & Scaling - Identified numerical columns in the dataset. - Applied `MinMaxScaler` to normalize values between 0 
+and 1. - Saved the preprocessed dataset as 
+`data/preprocessed_data.csv`. - All steps are documented in `preprocessing.ipynb`.
 
 
 ## Day 5 
