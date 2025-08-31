@@ -18,17 +18,21 @@ with mean/forward fill. Cleaned data is saved as
 
 
 ## Day 4
-– Fix Data Types & Remove Duplicates - Converted date columns to datetime format using 
-`pd.to_datetime()` 
-- Ensured numeric columns are in correct type using 
-`pd.to_numeric()` - Removed duplicate records using `drop_duplicates()` - Saved update
+– Fix Data Types & Remove Duplicates 
+- Converted date columns to datetime format using `pd.to_datetime()` 
+- Ensured numeric columns are in correct type using `pd.to_numeric()`
+- Removed duplicate records using `drop_duplicates()` - Saved update
 
 ## Day 5
-– Data Normalization & Scaling - Identified numerical columns in the dataset. - Applied `MinMaxScaler` to normalize values between 0 
-and 1. - Saved the preprocessed dataset as 
-`data/preprocessed_data.csv`. - All steps are documented in `preprocessing.ipynb`.
+– Data Normalization & Scaling 
+- Identified numerical columns in the dataset.
+- Applied `MinMaxScaler` to normalize values between 0 and 1.
+- Saved the preprocessed dataset as `data/preprocessed_data.csv`.
+- All steps are documented in `preprocessing.ipynb`.
 
-## Day 6 – Export Data for Power BI - Loaded preprocessed dataset from Day 5. - Verified data integrity and structure. - Exported final dataset as 
-`data/final_data_for_powerbi.csv` for visualization in 
-Power BI. 
+## Day 6 
+– Export Data for Power BI 
+- Loaded preprocessed dataset from Day 5.
+- Verified data integrity and structure.
+- Exported final dataset as `data/final_data_for_powerbi.csv` for visualization in Power BI. 
 
